@@ -1,0 +1,17 @@
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\bin\Debug\net9.0-windows\DemonstrationProject.exe
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\bin\Debug\net9.0-windows\DemonstrationProject.deps.json
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\bin\Debug\net9.0-windows\DemonstrationProject.runtimeconfig.json
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\bin\Debug\net9.0-windows\DemonstrationProject.dll
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\bin\Debug\net9.0-windows\DemonstrationProject.pdb
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\DemonstrationProject.Form1.resources
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\DemonstrationProject.csproj.GenerateResource.cache
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\DemonstrationProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\DemonstrationProject.AssemblyInfoInputs.cache
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\DemonstrationProject.AssemblyInfo.cs
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\DemonstrationProject.csproj.CoreCompileInputs.cache
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\DemonstrationProject.sourcelink.json
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\DemonstrationProject.dll
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\refint\DemonstrationProject.dll
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\DemonstrationProject.pdb
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\DemonstrationProject.genruntimeconfig.cache
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\DemonstrationProject\obj\Debug\net9.0-windows\ref\DemonstrationProject.dll

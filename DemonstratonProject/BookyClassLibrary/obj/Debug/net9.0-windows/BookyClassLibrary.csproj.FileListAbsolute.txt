@@ -1,0 +1,12 @@
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\bin\Debug\net9.0-windows\BookyClassLibrary.deps.json
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\bin\Debug\net9.0-windows\BookyClassLibrary.dll
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\bin\Debug\net9.0-windows\BookyClassLibrary.pdb
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\obj\Debug\net9.0-windows\BookyClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\obj\Debug\net9.0-windows\BookyClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\obj\Debug\net9.0-windows\BookyClassLibrary.AssemblyInfo.cs
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\obj\Debug\net9.0-windows\BookyClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\obj\Debug\net9.0-windows\BookyClassLibrary.sourcelink.json
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\obj\Debug\net9.0-windows\BookyClassLibrary.dll
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\obj\Debug\net9.0-windows\refint\BookyClassLibrary.dll
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\obj\Debug\net9.0-windows\BookyClassLibrary.pdb
+C:\Users\Stoya\Desktop\Projects\WinForms_Tutorial\DemonstratonProject\BookyClassLibrary\obj\Debug\net9.0-windows\ref\BookyClassLibrary.dll
