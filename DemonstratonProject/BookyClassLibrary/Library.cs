@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Text.RegularExpressions;
 
 namespace BookyClassLibrary
 {
@@ -29,9 +30,30 @@ namespace BookyClassLibrary
         }
 
         // Ensure Text is in proper format
-        public static void EnsureInfoCompliesWithRestrictions(string text)
+        public static bool EnsureNamesComplyWithRestrictions(string text, string file, string path)
         {
-
+            string regex = @"^[A-Z][a-z]+";
+            string fullPath = Path.Combine(path, file);
+            if (Regex.IsMatch(text, regex))
+            {
+                    string fileContents = File.Exists(fullPath) ? File.ReadAllText(fullPath) : string.Empty;
+                    if (!fileContents.Contains(text))
+                    {
+                        File.AppendAllText(fullPath, text + " ");
+                        return false;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Sorry but this username exists on this computer");
+                        MessageBox.Show($"You can manually change that by going to {path}");
+                        return true;
+                    }
+            }
+            else
+            {
+                MessageBox.Show("Invalid Name format. Please use the following format - \"Name\"");
+                return false;
+            }
         }
         // Ensure if Info Exists
         public static void EnsureRegistrationInfoExists(string file, string path)

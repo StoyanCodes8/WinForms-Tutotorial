@@ -34,8 +34,8 @@
             welcomeLabelSignUpPage = new Label();
             FirstName = new TextBox();
             LastName = new TextBox();
-            userName = new TextBox();
-            signUpButton = new Button();
+            nickname = new TextBox();
+            sendButton = new Button();
             signUpMenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -60,7 +60,7 @@
             // aboutSignUpMenu
             // 
             aboutSignUpMenu.Name = "aboutSignUpMenu";
-            aboutSignUpMenu.Size = new Size(224, 26);
+            aboutSignUpMenu.Size = new Size(133, 26);
             aboutSignUpMenu.Text = "&About";
             // 
             // welcomeLabelSignUpPage
@@ -80,6 +80,7 @@
             FirstName.Name = "FirstName";
             FirstName.Size = new Size(365, 27);
             FirstName.TabIndex = 2;
+            FirstName.Leave += FirstName_FocusLeave;
             FirstName.MouseHover += FirstName_Mousehover;
             // 
             // LastName
@@ -89,35 +90,36 @@
             LastName.Name = "LastName";
             LastName.Size = new Size(365, 27);
             LastName.TabIndex = 3;
+            LastName.Leave += LastName_FocusLeave;
             LastName.MouseHover += LastName_Mousehover;
-
             // 
-            // userName
+            // nickname
             // 
-            userName.Font = new Font("Courier New", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            userName.Location = new Point(12, 154);
-            userName.Name = "userName";
-            userName.Size = new Size(365, 27);
-            userName.TabIndex = 4;
-            userName.MouseHover += userName_MouseHover;
+            nickname.Font = new Font("Courier New", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            nickname.Location = new Point(12, 154);
+            nickname.Name = "nickname";
+            nickname.Size = new Size(365, 27);
+            nickname.TabIndex = 4;
+            nickname.MouseHover += nickname_MouseHover;
             // 
-            // signUpButton
+            // sendButton
             // 
-            signUpButton.Font = new Font("Courier New", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            signUpButton.Location = new Point(12, 199);
-            signUpButton.Name = "signUpButton";
-            signUpButton.Size = new Size(94, 29);
-            signUpButton.TabIndex = 5;
-            signUpButton.Text = "Sign Up";
-            signUpButton.UseVisualStyleBackColor = true;
+            sendButton.Font = new Font("Courier New", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            sendButton.Location = new Point(12, 199);
+            sendButton.Name = "sendButton";
+            sendButton.Size = new Size(94, 29);
+            sendButton.TabIndex = 5;
+            sendButton.Text = "Send";
+            sendButton.UseVisualStyleBackColor = true;
+            sendButton.Click += sendButton_Click;
             // 
             // SignUp
             // 
             AutoScaleDimensions = new SizeF(24F, 46F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(729, 383);
-            Controls.Add(signUpButton);
-            Controls.Add(userName);
+            Controls.Add(sendButton);
+            Controls.Add(nickname);
             Controls.Add(LastName);
             Controls.Add(FirstName);
             Controls.Add(welcomeLabelSignUpPage);
@@ -142,7 +144,7 @@
         private Label welcomeLabelSignUpPage;
         private TextBox FirstName;
         private TextBox LastName;
-        private TextBox userName;
-        private Button signUpButton;
+        private TextBox nickname;
+        private Button sendButton;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignUpForm_Booky")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b854a586795be379c572c976dcfc50ad6f44809d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fc420e3c5e24e9530bcdb7f4d0046118b6d8d95")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignUpForm_Booky")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignUpForm_Booky")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
