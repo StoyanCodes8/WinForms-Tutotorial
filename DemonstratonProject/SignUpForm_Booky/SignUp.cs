@@ -1,6 +1,8 @@
 using System.IO;
 using System.Windows.Forms.VisualStyles;
+using System;
 using BookyClassLibrary;
+using System.Linq.Expressions;
 namespace SignUpForm_Booky
 {
     public partial class SignUp : Form
@@ -37,18 +39,14 @@ namespace SignUpForm_Booky
         // FIRST TWO ELEMENTS VALUE FILLING AND CHECKING
         private void FirstName_FocusLeave(object sender, EventArgs e)
         {
-            firstname = FirstName.Text;
-            string text = firstname;
-            string file = "Log_In.txt";
-            string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "BookyApp");
+                firstname = FirstName.Text;
+                string text = firstname;
+                string file = "Log_In.txt";
+                string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "BookyApp");
 
-            bool isRepeated = DirectoryUtilities.EnsureNamesComplyWithRestrictions(text, file, path);
-            if (isRepeated)
-            {
-                FirstName.Clear();
-                return;
-            }
+                DirectoryUtilities.EnsureNamesComplyWithRestrictions(text, file, path);
         }
+
         private void LastName_FocusLeave(object sender, EventArgs e)
         {
             lastname = LastName.Text;
@@ -56,12 +54,7 @@ namespace SignUpForm_Booky
             string file = "Log_In.txt";
             string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "BookyApp");
 
-            bool isRepeated = DirectoryUtilities.EnsureNamesComplyWithRestrictions(text, file, path);
-            if (isRepeated)
-            {
-                LastName.Clear();
-                return;
-            }
+           DirectoryUtilities.EnsureNamesComplyWithRestrictions(text, file, path);
         }
 
 

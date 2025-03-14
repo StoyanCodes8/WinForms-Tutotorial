@@ -1,5 +1,13 @@
 ﻿using System.IO;
 using System.Text.RegularExpressions;
+using System;
+using System.Runtime;
+using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Security;
+using System.Threading;
 
 namespace BookyClassLibrary
 {
@@ -30,29 +38,26 @@ namespace BookyClassLibrary
         }
 
         // Ensure Text is in proper format
-        public static bool EnsureNamesComplyWithRestrictions(string text, string file, string path)
+        public static void EnsureNamesComplyWithRestrictions(string text, string file, string path)
         {
             string regex = @"^[A-Z][a-z]+";
             string fullPath = Path.Combine(path, file);
             if (Regex.IsMatch(text, regex))
             {
-                    string fileContents = File.Exists(fullPath) ? File.ReadAllText(fullPath) : string.Empty;
-                    if (!fileContents.Contains(text))
-                    {
-                        File.AppendAllText(fullPath, text + " ");
-                        return false;
-                    }
-                    else
-                    {
-                        MessageBox.Show("Sorry but this username exists on this computer");
-                        MessageBox.Show($"You can manually change that by going to {path}");
-                        return true;
-                    }
+                string fileContents = File.Exists(fullPath) ? File.ReadAllText(fullPath) : string.Empty;
+                if (!fileContents.Contains(text))
+                {
+                    File.AppendAllText(fullPath, text + " ");
+                }
+                else
+                {
+                    MessageBox.Show("Sorry but this username exists on this computer");
+                    MessageBox.Show($"You can manually change that by going to {path}");
+                }
             }
             else
             {
                 MessageBox.Show("Invalid Name format. Please use the following format - \"Name\"");
-                return false;
             }
         }
         // Ensure if Info Exists
@@ -60,6 +65,5 @@ namespace BookyClassLibrary
         {
 
         }
-
     }
 }

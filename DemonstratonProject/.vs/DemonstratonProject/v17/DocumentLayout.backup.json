@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{1849903D-712D-4EB8-B487-CE0DCFF2168A}|SignUpForm_Booky\\SignUpForm_Booky.csproj|solutionrelative:signupform_booky\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A36D3D34-CD3D-4179-959B-BD8F3ED0E903}|BookyClassLibrary\\ClassLibrary.csproj|c:\\users\\stoya\\desktop\\projects\\winforms_tutorial\\demonstratonproject\\bookyclasslibrary\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36D3D34-CD3D-4179-959B-BD8F3ED0E903}|BookyClassLibrary\\ClassLibrary.csproj|solutionrelative:bookyclasslibrary\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1849903D-712D-4EB8-B487-CE0DCFF2168A}|SignUpForm_Booky\\SignUpForm_Booky.csproj|c:\\users\\stoya\\desktop\\projects\\winforms_tutorial\\demonstratonproject\\signupform_booky\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1849903D-712D-4EB8-B487-CE0DCFF2168A}|SignUpForm_Booky\\SignUpForm_Booky.csproj|solutionrelative:signupform_booky\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A36D3D34-CD3D-4179-959B-BD8F3ED0E903}|BookyClassLibrary\\ClassLibrary.csproj|c:\\users\\stoya\\desktop\\projects\\winforms_tutorial\\demonstratonproject\\bookyclasslibrary\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A36D3D34-CD3D-4179-959B-BD8F3ED0E903}|BookyClassLibrary\\ClassLibrary.csproj|solutionrelative:bookyclasslibrary\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1849903D-712D-4EB8-B487-CE0DCFF2168A}|SignUpForm_Booky\\SignUpForm_Booky.csproj|c:\\users\\stoya\\desktop\\projects\\winforms_tutorial\\demonstratonproject\\signupform_booky\\signupprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1849903D-712D-4EB8-B487-CE0DCFF2168A}|SignUpForm_Booky\\SignUpForm_Booky.csproj|solutionrelative:signupform_booky\\signupprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1849903D-712D-4EB8-B487-CE0DCFF2168A}|SignUpForm_Booky\\SignUpForm_Booky.csproj|C:\\Users\\Stoya\\Desktop\\Projects\\WinForms_Tutorial\\DemonstratonProject\\signupform_booky\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Library.cs",
               "DocumentMoniker": "C:\\Users\\Stoya\\Desktop\\Projects\\WinForms_Tutorial\\DemonstratonProject\\BookyClassLibrary\\Library.cs",
               "RelativeDocumentMoniker": "BookyClassLibrary\\Library.cs",
               "ToolTip": "C:\\Users\\Stoya\\Desktop\\Projects\\WinForms_Tutorial\\DemonstratonProject\\BookyClassLibrary\\Library.cs",
               "RelativeToolTip": "BookyClassLibrary\\Library.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAawDEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAawCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T17:16:27.511Z",
               "IsPinned": true,
@@ -44,13 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SignUp.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Stoya\\Desktop\\Projects\\WinForms_Tutorial\\DemonstratonProject\\SignUpForm_Booky\\SignUp.Designer.cs",
               "RelativeDocumentMoniker": "SignUpForm_Booky\\SignUp.Designer.cs",
               "ToolTip": "C:\\Users\\Stoya\\Desktop\\Projects\\WinForms_Tutorial\\DemonstratonProject\\SignUpForm_Booky\\SignUp.Designer.cs",
               "RelativeToolTip": "SignUpForm_Booky\\SignUp.Designer.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T17:22:47.639Z",
               "IsPinned": true,
@@ -64,7 +68,7 @@
               "RelativeDocumentMoniker": "SignUpForm_Booky\\SignUp.cs",
               "ToolTip": "C:\\Users\\Stoya\\Desktop\\Projects\\WinForms_Tutorial\\DemonstratonProject\\SignUpForm_Booky\\SignUp.cs*",
               "RelativeToolTip": "SignUpForm_Booky\\SignUp.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAAhwDAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAawDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T17:22:09.316Z",
               "IsPinned": true,
@@ -97,6 +101,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SignUpProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Stoya\\Desktop\\Projects\\WinForms_Tutorial\\DemonstratonProject\\SignUpForm_Booky\\SignUpProgram.cs",
+              "RelativeDocumentMoniker": "SignUpForm_Booky\\SignUpProgram.cs",
+              "ToolTip": "C:\\Users\\Stoya\\Desktop\\Projects\\WinForms_Tutorial\\DemonstratonProject\\SignUpForm_Booky\\SignUpProgram.cs",
+              "RelativeToolTip": "SignUpForm_Booky\\SignUpProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T05:12:56.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SignUp.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Stoya\\Desktop\\Projects\\WinForms_Tutorial\\DemonstratonProject\\SignUpForm_Booky\\SignUp.cs",
               "RelativeDocumentMoniker": "SignUpForm_Booky\\SignUp.cs",

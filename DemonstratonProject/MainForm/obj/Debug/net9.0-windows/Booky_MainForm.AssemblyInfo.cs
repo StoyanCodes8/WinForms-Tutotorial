@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Booky_MainForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b854a586795be379c572c976dcfc50ad6f44809d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41335f6c559ff78bd25ad5ab6483de52656e705c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Booky_MainForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Booky_MainForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
